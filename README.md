@@ -61,14 +61,6 @@ To set up the client-side using Docker Compose, run the following command:
 
 docker-compose up -d This will start a Docker container with all of the necessary dependencies. The client will then be accessible at http://localhost:3000.
 
-Using Docker run
-
-To set up the client-side using docker run, you will need to first pull the image from Docker Hub:
-
-docker pull rajbeerji123/dezire-store Once the image has been pulled, you can start the client-side application using the following command:
-
-docker run -p 3000:3000 rajbeerji123/dezire-store This will start a single container with the client-side application.
-
 ## Conclusion
 
 This custom ecommerce admin backend is a powerful tool for fashion businesses to build their online marketplaces. It is built with cutting-edge technologies and offers a wide range of features. We are excited to see how businesses use this backend to build successful online marketplaces.
